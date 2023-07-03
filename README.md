@@ -2,7 +2,7 @@
 
 ### 글자 검출 프로젝트
 
-<img width="80%" src="https://github.com/boostcampaitech5/level2_cv_datacentric-cv-17/assets/70469008/9ee810ab-335c-49a2-bd4c-88174c872007" />
+<img width="80%" src="https://s3-us-west-2.amazonaws.com/aistages-prod-server-public/app/Users/00000333/files/654c3b7b-c151-4f63-a378-cc102bbf773f..png" />
 
 OCR (Optimal Character Recognition) 기술은 사람이 직접 쓰거나 이미지 속에 있는 문자를 얻은 다음 이를 컴퓨터가 인식할 수 있도록 하는 기술로, 컴퓨터 비전 분야에서 현재 널리 쓰이는 대표적인 기술 중 하나입니다.
 
