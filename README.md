@@ -19,9 +19,9 @@ OCR task는 글자 검출 (text detection), 글자 인식 (text recognition), �
 
 #### Point
 
-본 대회는 데이터를 수집하고 활용하는 방법이 주요 내용이므로, 모델 관련 코드 및 test dataset에 대한 수정이 불가합니다. (상세 파일은 아래 참고)
+** 본 대회는 데이터를 수집하고 활용하는 방법이 주요 내용이므로, 모델 관련 코드 및 test dataset에 대한 수정이 불가합니다. (상세 파일은 아래 참고)
 따라서 해당 프로젝트는 annotation 파일의 구조와 노이즈 여부를 직접 살펴보고 이를 수정 및 개선하는 과정에 집중하였으며,
-최종 제출 모델과 별개로 진행한 추가 실험 관련 코드만 업로드한 점 참고 부탁드립니다.
+최종 제출 모델과 별개로 진행한 추가 실험 관련 코드만 업로드한 점 참고 부탁드립니다. **
 
 #### 프로젝트 진행 순서
 
@@ -35,11 +35,11 @@ OCR task는 글자 검출 (text detection), 글자 인식 (text recognition), �
 
 #### Wrap-up Report
 
-(추후 추가 예정)
+https://drive.google.com/file/d/1FpetstXdjcLq1pvgy1dM3v6wUVAHtMJA/view?usp=sharing
 
 #### Dataset
 
-- "medical"이라는 이름의 진료비영수증 데이터셋
+- "medical"이라는 이름의 진료비 영수증 데이터셋
   - Input : 글자가 포함된 전체 이미지
   - Output : bbox 좌표가 포함된 UFO Format (글자 영역에 대한 bounding box 정보 외의 다른 정보는 필요로 하지 않기 때문에 전체 UFO 형식 중 "points"에 해당하는 값들만 포함)
     <img width="80%" src="https://github.com/boostcampaitech5/level2_cv_datacentric-cv-17/assets/70469008/eb3e3e9c-18bb-4131-993e-33cb8f925424" />
