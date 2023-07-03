@@ -53,11 +53,14 @@ https://drive.google.com/file/d/1FpetstXdjcLq1pvgy1dM3v6wUVAHtMJA/view?usp=shari
   - 언어는 주로 한국어이고, 영어도 일부 포함
   - 총 100장 (Public 테스트셋으로는 50%인 50장이 공개되고, 나머지 데이터 50장은 Private 테스트셋으로 활용)
 
+#### 평가 Metric
+
+- DetEval (모든 이미지에 대하여 Recall, Precision을 구한 이후, 최종 F1-Score은 모든 이미지 레벨에서 측정 값의 평균으로 측정)
+
 #### Competition Rules
 
-- 평가방법은 7강에서 소개되는 DetEval 방식으로 계산되어 진행됩니다.
-- ['masked', 'excluded-region', 'maintable', 'stamp'] 에 해당되는 영역은 ignore 처리하므로 검출하지 않아도 됩니다.
-- 베이스라인 모델인 EAST 모델이 정의되어 있는 아래 파일들은 변경사항 없이 그대로 이용해야 합니다.
+- ['masked', 'excluded-region', 'maintable', 'stamp'] 에 해당되는 영역은 ignore 처리하므로 검출하지 않습니다.
+- 베이스라인 모델인 EAST 모델이 정의되어 있는 아래 파일들은 변경사항 없이 그대로 이용합니다.
   - model.py / loss.py / east_dataset.py / detect.py
-  - 변경이 금지된 파일들의 내용을 이용하지 않고 모델 관련 내용을 새로 작성해서 이용하는 것도 대회 규정에 어긋나는 행위입니다.
+  - 변경이 금지된 파일들의 내용을 이용하지 않고 모델 관련 내용을 새로 작성해서 이용하는 것은 대회 규정에 어긋나는 행위로 간주합니다.
 - 성능 향상을 위해 공공 데이터셋 혹은 직접 수집한 데이터셋을 추가적으로 이용하는 것을 제한하지 않습니다.
